@@ -10,6 +10,8 @@ public class LessonExeption {
           if (arr[i].length != 4)
               throw new MyArraySizeExeption();
       }
+
+        System.out.println("New Code");
     }
 
     public static void main(String[] args) throws MyArraySizeExeption {
