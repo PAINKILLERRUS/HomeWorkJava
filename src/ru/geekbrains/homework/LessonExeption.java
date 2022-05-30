@@ -14,7 +14,7 @@ public class LessonExeption {
                 for (int j = 0; j < arr.length; j++)
                     sum += Integer.parseInt(arr[i][j]);
             } catch (NumberFormatException e) {
-                System.out.println(" Исключение NumberFormatException перехвачено!");
+                System.out.println(" Исключение NumberFormatException перехвачено!!!");
                 throw new MyArrayDataExeption();
             }
         }
